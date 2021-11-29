@@ -11,13 +11,13 @@ body {
 a,
 button {
   transition: all 0.3s ease-in-out;
-  outline:none;
+  outline: none;
 }
 
 a:hover {
   text-decoration: none;
   cursor: pointer;
-  outline:dotted;
+  outline: dotted;
 }
 
 #page-loading-blocs-notifaction {
