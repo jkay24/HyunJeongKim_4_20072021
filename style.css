@@ -11,12 +11,13 @@ body {
 a,
 button {
   transition: all 0.3s ease-in-out;
-  outline: none !important;
+  outline:none;
 }
 
 a:hover {
   text-decoration: none;
   cursor: pointer;
+  outline:dotted;
 }
 
 #page-loading-blocs-notifaction {
@@ -462,7 +463,7 @@ nav .caret {
 }
 
 button {
-  outline: none !important;
+  outline: none;
 }
 
 .btn-rd {
@@ -518,7 +519,7 @@ button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 0;
+  visibility: hidden;
   z-index: 500;
   transition: all 0.3s ease-in-out;
 }
@@ -529,7 +530,7 @@ button {
 
 .showScrollTop {
   font-size: 15px;
-  opacity: 1;
+  visibility: visible;
 }
 
 a[data-lightbox] {
@@ -1060,4 +1061,7 @@ h4 {
 /*Troisième image remplacée par texte */
 #bloc-4-portfolio > .container.bloc-lg > .row > h2.col-sm-12.text-center {
   padding: 0 28% 0 28%;
+}
+.col-xs-12.col-md-8 {
+  color: #333;
 }
